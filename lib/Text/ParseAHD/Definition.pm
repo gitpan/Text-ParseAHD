@@ -29,25 +29,17 @@ __END__
 
 =head1 NAME
 
-Text::ParseAHD::Word - [One line description of module's purpose here]
+Text::ParseAHD::Definition - holds a definition for a word, including text, example, and part of speech
 
 
 =head1 VERSION
 
-This document describes Text::ParseAHD::Word version 0.0.1
+This document describes Text::ParseAHD::Definition version 0.0.2
 
 
 =head1 SYNOPSIS
 
-    use Text::ParseAHD::Word;
-
-    my $wizard = CatalystX::Wizard->new({attribute => 'value'});
-
-    print $wizard->get_attribute(), "\n";
-
-    $wizard->set_attribute('new value');
-
-    print $wizard->get_attribute(), "\n";
+    use Text::ParseAHD::Definition;
 
 =for author to fill in:
     Brief code example(s) here showing commonest usage(s).
@@ -103,7 +95,7 @@ This document describes Text::ParseAHD::Word version 0.0.1
     that can be set. These descriptions must also include details of any
     configuration language used.
   
-Text::ParseAHD::Word requires no configuration files or environment variables.
+Text::ParseAHD::Definition requires no configuration files or environment variables.
 
 
 =head1 DEPENDENCIES
@@ -143,7 +135,7 @@ None reported.
 No bugs have been reported.
 
 Please report any bugs or feature requests to
-C<bug-text-parseahd-word@rt.cpan.org>, or through the web interface at
+C<bug-text-parseahd-definition@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
 
 

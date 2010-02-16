@@ -8,7 +8,7 @@ use warnings;
 use strict;
 use Carp;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 
 our $root_dir = '/home/roger/projects/comprehension/dictionary/dictionary.reference.com/browse/';
 
@@ -40,25 +40,17 @@ __END__
 
 =head1 NAME
 
-Text::ParseAHD::Word - [One line description of module's purpose here]
+Text::ParseAHD::Word - holds name of word and list of definitions
 
 
 =head1 VERSION
 
-This document describes Text::ParseAHD::Word version 0.0.1
+This document describes Text::ParseAHD::Word version 0.0.2
 
 
 =head1 SYNOPSIS
 
     use Text::ParseAHD::Word;
-
-    my $wizard = CatalystX::Wizard->new({attribute => 'value'});
-
-    print $wizard->get_attribute(), "\n";
-
-    $wizard->set_attribute('new value');
-
-    print $wizard->get_attribute(), "\n";
 
 =for author to fill in:
     Brief code example(s) here showing commonest usage(s).

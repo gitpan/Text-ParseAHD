@@ -9,7 +9,7 @@ use warnings;
 use strict;
 use Carp;
 
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 
 {
         my %html_of  :ATTR( :get<html>   :set<html>   :default<''>    :init_arg<html> );
@@ -252,25 +252,17 @@ __END__
 
 =head1 NAME
 
-Text::ParseAHD - [One line description of module's purpose here]
+Text::ParseAHD - reads American Heritage Dictionary HTML file and returns word object with definitions
 
 
 =head1 VERSION
 
-This document describes Text::ParseAHD version 0.0.1
+This document describes Text::ParseAHD version 0.0.2
 
 
 =head1 SYNOPSIS
 
     use Text::ParseAHD;
-
-    my $wizard = CatalystX::Wizard->new({attribute => 'value'});
-
-    print $wizard->get_attribute(), "\n";
-
-    $wizard->set_attribute('new value');
-
-    print $wizard->get_attribute(), "\n";
 
 =for author to fill in:
     Brief code example(s) here showing commonest usage(s).

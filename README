@@ -1,5 +1,5 @@
-Text-ParseAHD version 0.0.1
- 
+Text-ParseAHD version 0.0.2
+
 Text::Mining parses the American Heritage Dictionary from http://dictionary.reference.com
 and stores words and their definitions in the Word and Definition objects
 
